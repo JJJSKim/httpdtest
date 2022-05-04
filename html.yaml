@@ -1,12 +1,13 @@
 ---
 - name: playbook
   hosts: all
-  becmoe: true 
+  becmoe: true
+
   tasks: 
     - name: httpd installation 
       yum: 
-      name: httpd 
-      state: present 
+        name: httpd 
+        state: present 
 
     - name: stop firewalld 
       service: 
