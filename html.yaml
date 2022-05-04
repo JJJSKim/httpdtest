@@ -22,4 +22,4 @@
         enabled: true
 
     - name: get nginx page 
-      get_url: https://nginx.com dest=/var/www/html
+      get_url: url=https://nginx.com dest=/var/www/html
