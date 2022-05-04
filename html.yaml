@@ -13,7 +13,7 @@
       service: 
         name: firewalld 
         state: stopped 
-        enable: false 
+        enabled: false 
 
     - name: start and enable httpd 
       service: 
