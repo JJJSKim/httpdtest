@@ -1,5 +1,5 @@
 ---
-- name: 플레이북
+- name: playbook
   hosts: all
   becmoe: true 
   tasks: 
